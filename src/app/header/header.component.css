@@ -1,0 +1,39 @@
+
+.backg{
+  background: rgb(19, 18, 18);
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+nav {
+  height: 40px;
+  width: 800px;
+  margin-left: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+nav p{
+  color: #fff;
+  width: 20%;
+  font-weight: 1000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+}
+nav span{
+  color: RGB(255,144,0)
+}
+nav a{
+  width:  75% ;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav a:hover {
+ background-color: RGB(71,109,146);
+ border-bottom: RGB(255,144,0) 4px solid;
+}

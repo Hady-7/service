@@ -1,0 +1,127 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#sec3{
+  background-image: url("../../assets/images/Services-bg.jpg");
+  height: 700px;
+  width: 100%;
+  text-align: center;
+}
+#sec3 #serv{
+  width: 1200px;
+     margin: auto;
+     padding-top: 100px;
+
+}
+#sec3 #serv h1{
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+   }
+#sec3 #serv p{
+padding-bottom: 30px;
+color: RGB(176,178,187);
+}
+#serv hr{
+  width: 200px;
+  margin: auto;
+}
+
+#imgsrv{
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  justify-content: space-between;
+  padding-top: 50px;
+
+}
+#imgsrv #serv1{
+  background-image: url("../../assets/images/Development-bg.jpg");
+  height: 387px;
+  width: 245px;
+  position: relative;
+}
+#imgsrv #serv1 #position{
+  background-image: url("../../assets/images/Development-cn.png");
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  top: 40px;
+  left: 65px;
+  z-index: 9999;
+}
+#imgsrv #serv1:hover #position{
+  background-image: url("../../assets/images/Develop-hover-icn.png");
+
+}
+#imgsrv  p{
+  padding-top: 180px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#imgsrv #serv2{
+  background-image: url("../../assets/images/desgin-bg.jpg");
+  height: 387px;
+  width: 245px;
+  position: relative;
+}
+#imgsrv #serv2 #position2{
+  background-image: url("../../assets/images/desgin-icn.png");
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  top: 40px;
+  left: 65px;
+  z-index: 9999;
+}
+#imgsrv #serv2:hover #position2{
+  background-image: url("../../assets/images/desgin-hover-icn.png");
+
+}
+#imgsrv #serv3{
+  background-image: url("../../assets/images/concept-bg.jpg");
+  height: 387px;
+  width: 245px;
+  position: relative;
+}
+#imgsrv #serv3 #position3{
+  background-image: url("../../assets/images/concept-icn.png");
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  top: 40px;
+  left: 65px;
+  z-index: 9999;
+}
+#imgsrv #serv3:hover #position3{
+  background-image: url("../../assets/images/concept-hover-icn.png");
+
+}
+#imgsrv #serv4{
+  background-image: url("../../assets/images/systam-bg.jpg");
+  height: 387px;
+  width: 245px;
+  position: relative;
+}
+#imgsrv #serv4 #position4{
+  background-image: url("../../assets/images/systam-icn.png");
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  top: 40px;
+  left: 65px;
+  z-index: 9999;
+}
+#imgsrv #serv4:hover #position4{
+  background-image: url("../../assets/images/systam-hover-icn.png");
+
+}
+

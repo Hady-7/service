@@ -1,0 +1,14 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+#copy {
+  text-transform: uppercase;
+  background-image: url("../../assets/images/Contact-bg.jpg");
+  height: 50px;
+  text-align: center;
+  padding: 15px 10px;
+  color: rgb(216, 212, 212);
+}

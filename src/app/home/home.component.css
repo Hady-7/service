@@ -1,0 +1,102 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+header{
+  background-image: url("../../assets/images/Banner-bg.jpg");
+  height: 600px ;
+  margin: auto;
+  }
+#layer{
+  background-color: rgba(83, 84, 95, 0.3);
+  height: 650px;
+  margin: auto;
+  position: relative;
+}
+
+#sec1 {
+  width: 300px;
+  margin-left: 25%;
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-end ;
+  padding-top: 250px;
+ }
+#sec1 h1{
+  color: #fff;
+  font-weight: 1000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+#sec1 #orange {
+  color: RGB(255,144,0) ;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+#sec1 p{
+font-weight: 400;
+color: #fff;
+}
+#sec1 button{
+  margin-top: 20px;
+  width: 130px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px #fff solid;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 8px;
+  background-color: transparent;
+}
+#sec1 button:hover{
+  transform: scale(1.1);
+  border-radius: 5px;
+  background-color:RGB(255,144,0) ;
+}
+#layer #img1 {
+  width: 650px ;
+  height: 400px;
+  position: absolute;
+  bottom: 15px;
+  right: 130px;
+}
+#imgbar{
+  box-shadow: -5px 0px 5px RGB(146,147,148);
+}
+/*img bar*/
+#imgbar{
+  color: #fff;
+  background-color:rgba(0, 0, 0, 0.6);
+  width: 650px ;
+  height: 80px;
+  position: absolute;
+  bottom: 15px;
+  right: 130px;
+}
+.fleximgbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px 20px;
+}
+.fleximgbar #item1 {
+  width: 30%;
+  padding: 0px 0px;
+}
+.fleximgbar img{
+  height: 20px;
+  width: 25px;
+}
+.fleximgbar #item3 h1{
+ font-size: 24px;
+ margin: 0px;
+}
+.fleximgbar #item3 span{
+  color: RGB(255,144,0);
+
+}
